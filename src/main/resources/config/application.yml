@@ -1,0 +1,31 @@
+server:
+  port: 9099
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      cors:
+        allowed-origins: '*'
+        allowed-methods: '*'
+  server:
+    servlet:
+      context-path: /actuator
+    port: ${server.port}
+  endpoint:
+    health:
+      show-details: always
+
+eureka:
+  client:
+    enabled: false
+
+spring:
+  application:
+    name: lagrange
+  jmx.enabled: false
+
+
+  main:
+    allow-bean-definition-overriding: true

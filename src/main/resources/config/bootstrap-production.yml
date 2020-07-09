@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      uri: ${CLOUD_CONFIG_URL:http://config:8888}
+      fail-fast: ${CLOUD_CONFIG_REQUIRED:true}
