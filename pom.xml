@@ -18,7 +18,7 @@
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <spring.io.platform.version>Cairo-RELEASE</spring.io.platform.version>
         <spring.cloud.version>Finchley.RELEASE</spring.cloud.version>
-        <kotlin.version>1.3.72</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
     </properties>
 
     <dependencies>
